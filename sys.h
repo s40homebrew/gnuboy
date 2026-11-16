@@ -32,7 +32,11 @@ void kb_close();
 
 
 /* FIXME these have different prototype for obsolete ( == M$ ) platforms */
+#ifndef GNUBOY_S40
 #include <sys/time.h>
+#else
+struct timeval;
+#endif
 int sys_elapsed(struct timeval *prev);
 void sys_initpath(char* exe);
 

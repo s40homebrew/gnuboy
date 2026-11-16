@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+MIDlet-Name: Gnuboy
+MIDlet-Version: 0.2.1
+MIDlet-Vendor: S40 Homebrew
+MIDlet-1: Gnuboy,,GnuboyLauncher
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+MIDlet-Permissions-Opt: javax.microedition.io.Connector.file.read

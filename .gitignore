@@ -1,3 +1,5 @@
 *.o
 *gnuboy
 config.*
+/s40/build/
+/s40/dist/

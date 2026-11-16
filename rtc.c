@@ -2,7 +2,9 @@
 
 
 #include <stdio.h>
+#ifndef GNUBOY_S40
 #include <time.h>
+#endif
 
 #include "defs.h"
 #include "mem.h"
@@ -93,6 +95,7 @@ void rtc_tick()
 	}
 }
 
+#ifndef GNUBOY_S40
 void rtc_save_internal(FILE *f)
 {
 	fprintf(f, "%d %d %d %02d %02d %02d %02d\n%ld\n",
@@ -117,6 +120,7 @@ void rtc_load_internal(FILE *f)
 	if (rt) rt = (time(0) - rt) * 60;
 	if (syncrtc) while (rt-- > 0) rtc_tick();
 }
+#endif
 
 
 
