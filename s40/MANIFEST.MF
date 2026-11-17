@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 MIDlet-Name: Gnuboy
-MIDlet-Version: 0.2.1
+MIDlet-Version: 0.2.2
 MIDlet-Vendor: S40 Homebrew
 MIDlet-1: Gnuboy,,GnuboyLauncher
 MicroEdition-Configuration: CLDC-1.1
